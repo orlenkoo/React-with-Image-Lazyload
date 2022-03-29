@@ -1,0 +1,38 @@
+export default [
+  {
+    id: "articles",
+    title: "Articles",
+    pm: ["AAA", "SAD"],
+    login: true,
+    logout: false,
+    iconCheck: false,
+    link: true,
+    icon: null,
+    navLink: "/dashboard/articles",
+    childrenCheck: true,
+    children: [
+      {
+        id: "all-articles",
+        title: "All Articles",
+        pm: ["AAA", "SAD"],
+        login: true,
+        logout: false,
+        iconCheck: false,
+        link: true,
+        icon: null,
+        navLink: "/dashboard/articles",
+      },
+      {
+        id: "new-article",
+        title: "New Article",
+        pm: ["AAA", "SAD"],
+        login: true,
+        logout: false,
+        iconCheck: false,
+        link: true,
+        icon: null,
+        navLink: "/dashboard/articles/new",
+      },
+    ],
+  },
+];

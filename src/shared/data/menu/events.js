@@ -1,0 +1,38 @@
+export default [
+  {
+    id: "events",
+    title: "Events",
+    pm: ["all"],
+    login: true,
+    logout: true,
+    iconCheck: false,
+    link: true,
+    icon: null,
+    navLink: "/events/",
+    childrenCheck: true,
+    children: [
+      {
+        id: "submit",
+        title: "Submission",
+        pm: ["all"],
+        login: true,
+        logout: true,
+        iconCheck: false,
+        link: true,
+        icon: null,
+        navLink: "/events/submission",
+      },
+      {
+        id: "per-mail",
+        title: "Events per email",
+        pm: ["all"],
+        login: true,
+        logout: true,
+        iconCheck: false,
+        link: true,
+        icon: null,
+        navLink: "/events/email",
+      },
+    ],
+  },
+];

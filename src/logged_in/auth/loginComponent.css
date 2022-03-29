@@ -1,0 +1,100 @@
+/* Inclusive css spinner */
+
+.overlayRegisterOn {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+  display: block;
+}
+
+.overlayRegisterOff {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+  display: none;
+}
+
+.lds-dual-ring {
+  display: block;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.registrationform {
+  display: block;
+}
+
+.registrationformoff {
+  display: none;
+}
+
+#textlogin {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  font-family: Bebasn;
+  letter-spacing: 1px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* // EXTRA FOR LOGIN STYLE */
+
+.containerlogin {
+  width: 40rem;
+  padding: 30px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+
+  height: auto !important;
+
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* CSS for ResetPassswordComponent */
+/*.resetcontainerSwitchOff {
+  display: none;
+}  */
